@@ -7,4 +7,4 @@ publish: image
 	docker push hilli/docker-log-emitter:latest
 
 run:
-	docker run hilli/docker-log-emitter:latest
+	docker run --rm hilli/docker-log-emitter:latest
